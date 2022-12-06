@@ -4,7 +4,7 @@ DEBUG= -g3
 SANITIZE= $(COMMON) -fsanitize=undefined -fsanitize=address $(DEBUG)
 VALGRIND= $(COMMON) $(DEBUG)
 # You'll probably need to change this path to somewhere we've you've stored general.c/.h
-GENERAL= ../../../../ADTs/General
+GENERAL= ADTs/General
 PRODUCTION= $(COMMON) -O3
 LDLIBS =
 
